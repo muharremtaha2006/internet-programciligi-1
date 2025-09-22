@@ -1,0 +1,91 @@
+/* Genel ayar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Başlık */
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Yazı stilleri */
+i {
+    font-style: italic;
+    color: #7F8C8D;
+}
+
+b {
+    font-weight: bold;
+    color: #2980B9;
+}
+
+del {
+    text-decoration: line-through;
+    color: #E74C3C;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+    color: #FF5733;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+    color: #FF5733;
+}
+
+small {
+    font-size: 0.8em;
+    color: #7F8C8D;
+}
+
+big {
+    font-size: 1.5em;
+    color: #FF9933;
+}
+
+u {
+    text-decoration: underline;
+    color: #3498DB;
+}
+
+strong {
+    font-weight: bold;
+    color: #E74C3C;
+}
+
+em {
+    font-style: italic;
+    color: #9B59B6;
+}
+
+cite {
+    font-style: italic;
+    color: #2C3E50;
+}
+
+/* Paragraf ayarları */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
