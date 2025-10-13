@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>HTML Örnekleri</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .bolum { border: 1px solid #ccc; padding: 10px; margin-bottom: 20px; border-radius: 5px; }
+        h2 { color: #005A9C; }
+        table, th, td { border: 1px solid #333; border-collapse: collapse; padding: 5px; }
+        .sehir { background-color: lightblue; padding: 10px; }
+        #drop-zone { width: 200px; height: 70px; border: 2px dashed #999; text-align: center; line-height: 70px; }
+    </style>
+</head>
+<body>
+
+    <!-- Temel HTML -->
+    <div class="bolum">
+        <h2>HTML Basic, Elements, Paragraphs</h2>
+        <h1>Ana Başlık</h1>
+        <p>Bu bir paragraftır.</p>
+    </div>
+
+    <!-- Nitelikler ve Linkler -->
+    <div class="bolum">
+        <h2>HTML Attributes, Links</h2>
+        <a href="https://www.google.com">Google'a git</a>
+    </div>
+
+    <!-- Başlıklar -->
+    <div class="bolum">
+        <h2>HTML Headings</h2>
+        <h1>Başlık 1</h1>
+        <h2>Başlık 2</h2>
+        <h3>Başlık 3</h3>
+    </div>
+
+    <!-- Stiller ve Renkler -->
+    <div class="bolum">
+        <h2>HTML Styles, Colors</h2>
+        <p style="color:tomato;">Bu kırmızı renkli bir paragraftır.</p>
+        <p style="background-color:dodgerblue; color:white;">Bunun arka planı mavidir.</p>
+    </div>
+
+    <!-- Biçimlendirme -->
+    <div class="bolum">
+        <h2>HTML Formatting</h2>
+        <p><b>Kalın</b>, <i>İtalik</i>, <u>Altı Çizili</u>, <sub>Alt Simge</sub>, <sup>Üst Simge</sup></p>
+    </div>
+
+    <!-- Alıntılar ve Yorumlar -->
+    <div class="bolum">
+        <h2>HTML Quotations, Comments</h2>
+        <blockquote>Bu bir alıntı metnidir.</blockquote>
+        <!-- Bu bir yorum satırıdır ve sayfada görünmez -->
+    </div>
+
+    <!-- Resimler ve Dosya Yolları -->
+    <div class="bolum">
+        <h2>HTML Images, File Paths</h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/3281/3281188.png" alt="Örnek Resim" height=69px>
+    </div>
+
+    <!-- Tablolar -->
+    <div class="bolum">
+        <h2>HTML Tables</h2>
+        <table>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Veli</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Listeler -->
+    <div class="bolum">
+        <h2>HTML Lists</h2>
+        <ul>
+            <li>Elma</li>
+            <li>Armut</li>
+        </ul>
+        <ol>
+            <li>Birinci</li>
+            <li>İkinci</li>
+        </ol>
+    </div>
+
+    <!-- Blok, Satır İçi, Div -->
+    <div class="bolum">
+        <h2>HTML Block, Inline, Div</h2>
+        <div>Bu bir blok elementidir.</div>
+        <span>Bu bir satır içi elementidir.</span>
+    </div>
+
+    <!-- Sınıflar ve ID -->
+    <div class="bolum">
+        <h2>HTML Classes, Id</h2>
+        <div class="sehir">Bu div'in class'ı "sehir".</div>
+        <p id="anaParagraf">Bu paragrafın ID'si "anaParagraf".</p>
+    </div>
+
+    <!-- Iframe -->
+    <div class="bolum">
+        <h2>HTML Iframes</h2>
+        <iframe src="about:blank" width="200" height="100"></iframe>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="bolum">
+        <h2>HTML JavaScript</h2>
+        <button onclick="alert('Merhaba!')">Tıkla</button>
+    </div>
+
+    <!-- Sayfa Düzeni ve Anlamsal Etiketler -->
+    <div class="bolum">
+        <h2>HTML Layout, Semantics</h2>
+        <header><h1>Sayfa Başlığı</h1></header>
+        <nav><a href="#">Anasayfa</a></nav>
+        <section><p>Ana içerik alanı.</p></section>
+        <footer><p>Sayfa alt bilgisi.</p></footer>
+    </div>
+    
+    <!-- Kod, Semboller ve Emojiler -->
+    <div class="bolum">
+        <h2>Computercode, Entities, Symbols, Emojis</h2>
+        <code>var x = 31;</code>
+        <p>Telif Hakkı: &copy; | Küçüktür: &lt; | Euro: &euro; | Emoji: &#128516;</p>
+    </div>
+    
+    <!-- Formlar -->
+    <div class="bolum">
+        <h2>HTML Forms, Form Attributes, Form Elements, Input Types, Input Attributes</h2>
+        <form action="/action_page.php" method="post">
+            <label for="ad">Ad:</label><br>
+            <input type="text" id="ad" name="ad" value="isim" placeholder="Adınızı girin" required><br>
+            
+            <label for="sifre">Şifre:</label><br>
+            <input type="password" id="sifre" name="sifre"><br>
+            
+            <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+            <label for="erkek">Erkek</label><br>
+            <input type="radio" id="kadın" name="cinsiyet" value="kadın">
+            <label for="kadın">Kadın</label><br>
+            
+            <input type="checkbox" id="onay" name="onay" value="evet">
+            <label for="onay">Kabul ediyorum</label><br>
+            
+            <label for="sehirler">Şehir Seç:</label><br>
+            <select id="sehirler" name="sehirler">
+                <option value="ist">İstanbul</option>
+                <option value="ank">Ankara</option>
+            </select><br><br>
+            
+            <input type="submit" value="Gönder">
+        </form>
+    </div>
+
+    <!-- Grafikler -->
+    <div class="bolum">
+        <h2>HTML Graphics: Canvas, SVG</h2>
+        <canvas id="myCanvas" width="200" height="50" style="border:1px solid #000;"></canvas>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" fill="red" />
+        </svg>
+    </div>
+
+    <!-- Medya -->
+    <div class="bolum">
+        <h2>HTML Media: Video, Audio, YouTube</h2>
+        <video width="720" controls src="https://ia801304.us.archive.org/15/items/WildlifeSampleVideo/Wildlife.mp4"></video>
+        <audio controls src="https://dn720406.ca.archive.org/0/items/22-michael-jackson-smooth-criminal-extended-moonwalker-mix/02%20Michael%20Jackson%20-%20Billie%20Jean%20%28extended%20version%29.mp4"></audio>
+        <iframe width="256" height="256" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </div>
+
+    <!-- API'ler -->
+    <div class="bolum">
+        <h2>HTML APIs: Geolocation, Drag & Drop, Web Storage</h2>
+        <button onclick="konumAl()">Konumu Al</button>
+        <p id="konum-bilgisi"></p>
+        <hr>
+        <div id="drop-zone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <p id="drag-item" draggable="true" ondragstart="drag(event)">Beni Sürükle</p>
+        <hr>
+        <button onclick="localStorage.setItem('isim', 'Ayşe')">Veri Kaydet</button>
+        <button onclick="alert(localStorage.getItem('isim'))">Veriyi Göster</button>
+    </div>
+
+    <script>
+        // Canvas
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.fillRect(10, 10, 100, 30);
+    
+        // Geolocation
+        function konumAl() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(pos => {
+                    document.getElementById("konum-bilgisi").innerHTML = 'Konumunuz alındı.';
+                });
+            }
+        }
+    
+        // Drag & Drop
+        function allowDrop(ev) { ev.preventDefault(); }
+        function drag(ev) { ev.dataTransfer.setData("text", ev.target.id); }
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</body>
+</html>
