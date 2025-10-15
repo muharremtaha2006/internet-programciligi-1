@@ -1,0 +1,91 @@
+/* Global Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding-top: 50px;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Card Stilleri */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Card Header Resmi */
+.card-img-top {
+    height: 200px; /* Sabit yükseklik */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Card İçeriği */
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Button Stili */
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Ayarları */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+    .card-body {
+        padding: 0.8rem;
+    }
+}

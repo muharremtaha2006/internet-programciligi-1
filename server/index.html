@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmler</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <style>
+        /* Genel Stil */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        .card-footer {
+            background-color: #f1f1f1;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-outline-primary {
+            border-color: #007bff;
+            color: #007bff;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #007bff;
+            color: white;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Filmler</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Film 1 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/film (1).jpg" class="card-img-top" alt="Film 1">
+                    <div class="card-body">
+                        <h5 class="card-title">I, Robot (2004)</h5>
+                        <p class="card-text">2035 yılında, teknolojiden korkan bir polis memuru, insanlık için daha büyük bir tehdit oluşturan, bir robot tarafından işlenmiş olabilecek bir suçu araştırır.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 2 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/film (2).jpg" class="card-img-top" alt="Film 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Zindan Adası</h5>
+                        <p class="card-text">Shutter Island, 2010 yapımı Martin Scorsese filmi. Dennis Lehane'nin Shutter Island adlı romanından beyaz perdeye uyarlanmıştır.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 3 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/film (3).jpg" class="card-img-top" alt="Film 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Legend (2015)</h5>
+                        <p class="card-text">Özdeş ikiz gangsterler Ronald ve Reginald Kray, 1960'larda Londra'da terör estirmektedir.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 4 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/film (4).jpg" class="card-img-top" alt="Film 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ejderha Dövmeli Kız</h5>
+                        <p class="card-text">Gazeteci Mikael Blomkvist, 40 yıldır kayıp olan bir kadını arama çalışmalarında bilgisayar korsanı Lisbeth Salander'den yardım alıyor.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 5 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/film (1).png" class="card-img-top" alt="Film 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Gri Adam</h5>
+                        <p class="card-text">Gerçek kimliği hiç kimse tarafından bilinmeyen CIA'in en yetenekli ajanı, yanlışlıkla kurumun karanlık sırlarını ortaya çıkarınca, psikopat eski bir meslektaşı onun başına ödül koyar ve... </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 6 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/film (6).webp" class="card-img-top" alt="Film 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Joker</h5>
+                        <p class="card-text">Parti palyaçosu ve başarısız bir stand-up komedyeni olan Arthur Fleck, hasta annesiyle birlikte yoksul bir hayat sürmektedir. Ancak toplum onu ​​dışlayıp ucube olarak damgalayınca, Gotham Şehri'ndeki kaos dolu hayatı benimsemeye karar verir.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Yukarıya Dön</a>
+            </p>
+            <p class="mb-1">Korsan Film Sitesi 2025</p>
+        </div>
+    </footer>
+
+    <!-- Script JS ve Bootstrap JS -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
